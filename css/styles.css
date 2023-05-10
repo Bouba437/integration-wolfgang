@@ -1,0 +1,133 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* Ramener la taille par défaut à 10px */
+    font-size : 62.5%;
+}
+
+body {
+    font-family: "Open sans", serif;
+    background-image: url("../img/bg_body.svg");
+    background-color: #444;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(145deg, white 0%, white 55%, #333 55%, #333 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+header nav a {
+    color: #ff9d00;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: #f1f1f1;
+    text-align: center;
+    margin: 2% 0;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carrousel span, .moto-container span {
+    color: #ff9d00;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    background-color: rgba(92,92,74, 0.7);
+    display: block;
+    width: 100%;
+    padding: 2%;
+}
+
+/* MOTO CONTAINER */
+.moto-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.moto-container h2 {
+    width: 100%;
+    margin-bottom: 2%;
+}
+.moto-container article {
+    width: 23%;
+    background: #f1f1f1;
+}
+.moto-container h3 {
+    font-size: 25px;
+    color: #ff9d00;
+    font-weight: bold;
+    border-bottom: 1px solid #ff9d00;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.moto-container p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 10px;
+}
+.moto-container article a {
+    text-decoration: none;
+    font-size: 16px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    background-color: #ff9d00;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* TABLETTE */
+@media screen and (max-width: 1023px) {
+    
+}
+
+/* PHONE */
+@media screen and (max-width: 727) {
+
+}
+

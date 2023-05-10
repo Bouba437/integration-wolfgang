@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WolfGang</title>
+
+    <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="flexslider/jquery.flexslider.js"></script>
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.svg" alt="logo WolfGang">
+        <nav>
+            <a href="#">Nos produits</a>
+            <a href="#">Nos tarifs</a>
+            <a href="#">Contactez-nous</a>
+        </nav>
+    </header>
+    <main>
+        <section class="carrousel">
+            <h1>Devenez le Mozart de la vidéo avec Wolf'<span>Gang</span> !</h1>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <figure>
+                            <img src="./img/slider/1.jpg"/>
+                            <figcaption>La première photo du slider</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/slider/2.jpg"/>
+                            <figcaption>La deuxième photo du slider</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/slider/3.jpg"/>
+                            <figcaption>La troisième photo du slider</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="moto-container">
+            <h2>Découvrez <span>nos motos</span></h2>
+            <article>
+                <img src="./img/team/1.jpg" alt="">
+                <h3>Moto #1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt architecto amet ducimus accusantium, quia fuga saepe asperiores quo dolore ipsum aliquid ex.</p>
+                <a href="#">En savoir plus</a>
+            </article>
+            <article>
+                <img src="./img/team/2.jpg" alt="">
+                <h3>Moto #1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt architecto amet ducimus accusantium, quia fuga saepe asperiores quo dolore ipsum aliquid ex.</p>
+                <a href="#">En savoir plus</a>
+            </article>
+            <article>
+                <img src="./img/team/3.jpg" alt="">
+                <h3>Moto #1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt architecto amet ducimus accusantium, quia fuga saepe asperiores quo dolore ipsum aliquid ex.</p>
+                <a href="#">En savoir plus</a>
+            </article>
+            <article>
+                <img src="./img/team/4.jpg" alt="">
+                <h3>Moto #1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt architecto amet ducimus accusantium, quia fuga saepe asperiores quo dolore ipsum aliquid ex.</p>
+                <a href="#">En savoir plus</a>
+            </article>
+        </section>
+    </main>
+
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+        $('.flexslider').flexslider();
+        });
+    </script>
+</body>
+</html>
